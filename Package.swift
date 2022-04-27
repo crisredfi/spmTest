@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "mpos_core",
-            targets: ["mpos_core"]),
+            targets: ["mpos_core", "mpos_ui"]),
     ],
     
     targets: [
